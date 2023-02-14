@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+}
+
+.text-red-800 {
+  color: rgb(153 27 27/1);
+}
+
+.text-green-800 {
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52/1);
+}
+
+.bg-red-100 {
+  background-color: rgb(254 226 226/1);
+}
+
+.bg-green-100 {
+  background-color: rgb(220 252 231/1);
+}
